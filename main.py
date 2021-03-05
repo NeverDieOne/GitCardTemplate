@@ -30,7 +30,8 @@ if __name__ == "__main__":
     commits = ['Шаг 5 - выполнено', 'Init commit', 'Add function to calculate salary']
 
     # Здесь файл + коммит к нему (можно в будущем сделать рандом для коммитов чтоб не париться)
-    files = [('main.py', 'Init commit'), ('.gitignore', 'Init commit'), ('.env', 'Init commit')]
+    default_commit = 'Init commit'
+    files = [('main.py', default_commit), ('.gitignore', default_commit), ('.env', default_commit)]
 
     get_commits(commits)
     get_files(files)
