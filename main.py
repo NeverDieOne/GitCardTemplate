@@ -27,10 +27,10 @@ if __name__ == "__main__":
     )
 
     # Здесь просто список из коммитов
-    commits = ['first', 'second']
+    commits = ['Шаг 5 - выполнено', 'Init commit', 'Add function to calculate salary']
 
     # Здесь файл + коммит к нему (можно в будущем сделать рандом для коммитов чтоб не париться)
-    files = [('main.py', 'Init commit'), ('.gitignore', 'Init commit')]
+    files = [('main.py', 'Init commit'), ('.gitignore', 'Init commit'), ('.env', 'Init commit')]
 
     get_commits(commits)
     get_files(files)
